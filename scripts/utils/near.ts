@@ -134,9 +134,10 @@ export async function checkContractExists(
 
     const nearAccount = new Account(near.connection, account);
 
-    const contract = new Contract(nearAccount, account, {
+    const contract = new Contract(near.connection, account, {
       viewMethods: ["web4_get"],
       changeMethods: [],
+      useLocalViewExecution: false
     });
 
     try {
