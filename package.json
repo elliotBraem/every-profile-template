@@ -45,6 +45,7 @@
     "framer-motion": "^12.4.1",
     "js-cookie": "^3.0.5",
     "lucide-react": "^0.475.0",
+    "near-api-js": "^5.0.1",
     "ora": "^8.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
